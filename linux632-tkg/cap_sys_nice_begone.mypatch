@@ -1,3 +1,12 @@
+From 03b63ce9f0040e794f50e089af48adf89b54f56a Mon Sep 17 00:00:00 2001
+From: Yann Penven <YannPenven@users.noreply.github.com>
+Date: Sat, 13 May 2023 19:38:45 +0200
+Subject: [PATCH] patch
+
+---
+ drivers/gpu/drm/amd/amdgpu/amdgpu_ctx.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
 diff --git a/drivers/gpu/drm/amd/amdgpu/amdgpu_ctx.c b/drivers/gpu/drm/amd/amdgpu/amdgpu_ctx.c
 index d2139ac12159..c7f1d36329c8 100644
 --- a/drivers/gpu/drm/amd/amdgpu/amdgpu_ctx.c
@@ -11,3 +20,6 @@ index d2139ac12159..c7f1d36329c8 100644
  }
  
  static enum amdgpu_gfx_pipe_priority amdgpu_ctx_prio_to_gfx_pipe_prio(int32_t prio)
+-- 
+2.38.4
+
